@@ -1,0 +1,24 @@
+mat-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.user-image{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+button {
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+.menu-width {
+  width: 200px;
+}
+.header {
+  border-top: 2px solid rgb(234, 232, 232);
+  padding: 10px 25px;
+  font-size: 25px;
+  font-weight: bold;
+}

@@ -1,0 +1,45 @@
+<h1 mat-dialog-title>Create a Product</h1>
+<div mat-dialog-content>
+  <form class="py-2" [formGroup]="productForm">
+    <div class="row mb-3">
+      <mat-form-field appearance="outline" class="col-sm-6 custom-border">
+        <mat-label>Product Name</mat-label>
+        <input formControlName="name" matInput placeholder="Name" />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="col-sm-6 custom-border">
+        <mat-label>Category</mat-label>
+        <mat-select formControlName="categoryId" placeholder="Category">
+          <mat-option value="2e02ff1d-856c-45da-bf4a-7dd41d80870c">2e02ff1d-856c-45da-bf4a-7dd41d80870c</mat-option>
+          <mat-option value="Vegatables">Vegatables</mat-option>
+          <mat-option value="Electronic">Electronic</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="col-sm-6">
+        <mat-label>Price</mat-label>
+        <input
+          formControlName="price"
+          type="number"
+          matInput
+          placeholder="Name"
+        />
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="col-sm-6">
+        <mat-label>Type</mat-label>
+        <input formControlName="type" matInput placeholder="Name" />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="col-sm-12">
+        <mat-label>Discription</mat-label>
+        <textarea formControlName="discription" matInput></textarea>
+      </mat-form-field>
+    </div>
+  </form>
+</div>
+<div mat-dialog-actions [align]="'end'" class="mb-2">
+  <!-- <button mat-raised-button color="accent" (click)="AddProduct()">{{actionButton}}</button> -->
+  <button mat-raised-button mat-dialog-close class="CreateButton" (click)="AddProduct()">{{actionButton}}</button>
+  <button mat-raised-button color="basic" mat-dialog-close>Cancle</button>
+</div>

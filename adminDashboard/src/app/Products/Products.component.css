@@ -1,0 +1,52 @@
+.form-control {
+  border: 2px solid rgb(203, 202, 202);
+  border-radius: 5px;
+}
+.input-group {
+  width: 93%;
+}
+input::placeholder {
+  color: rgb(143, 142, 142);
+}
+
+.mat-button {
+  border-radius: 20px;
+  background-color: #D4A418;
+  width: 6%;
+}
+.card {
+	/* height: 250px; */
+	width: 240px;
+  border: none;
+	border-radius: 10px;
+	margin-top: 5px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.101);
+  }
+
+  .imagem {
+	display: flex;
+	justify-content: center;
+  }
+
+  .img {
+	height:100px;
+	width: 100px;
+	margin-top: 20px;
+	border-radius: 50%;
+  }
+
+  .card-title {
+	font-weight: 600;
+	margin-top: 20px;
+  }
+.description{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.details{
+  color:darkgrey
+}
+.card-button{
+  width: 50%;
+  border-right: 1px solid darkgray;
+}

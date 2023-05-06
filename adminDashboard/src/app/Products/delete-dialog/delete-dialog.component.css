@@ -1,0 +1,24 @@
+.deleteButton{
+  background-color:  #D4A418;
+  color: white;
+}
+button{
+  border-radius: 20px;
+}
+.question{
+  color: rgb(143, 142, 142);
+
+}
+.button_container{
+  background-color: #f2f2f2;
+}
+.icon-container{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: rgba(255, 0, 0, 0.116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}

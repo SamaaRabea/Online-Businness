@@ -1,0 +1,17 @@
+<mat-toolbar class="justify-content-between bg-white">
+    <button mat-icon-button (click)="toggleSidebar()"><mat-icon>menue</mat-icon> </button>
+    <div>
+      <button  mat-button [matMenuTriggerFor]="menu" class="mt-2 d-flex align-items-center">
+        <img src="https://source.unsplash.com/c_GmwfHBDzk/200x200" alt="" class="user-image mr-1 p-2" />
+          User Name
+        <mat-icon class="user-image-icon ml-1">keyboard_arrow_down</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu" >
+        <button mat-menu-item>
+          <mat-icon>exit_to_app</mat-icon>
+          Logout
+        </button>
+      </mat-menu>
+    </div>
+</mat-toolbar>
+<div class="header bg-white py-4">{{currentRoute}}</div>

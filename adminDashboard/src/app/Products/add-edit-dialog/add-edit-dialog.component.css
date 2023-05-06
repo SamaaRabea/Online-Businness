@@ -1,0 +1,10 @@
+::ng-deep .custom-border .mat-form-field-outline {
+  color: red;
+  border-color: red;
+}
+.CreateButton{
+  background-color:  #D4A418;
+}
+button{
+  border-radius: 20px;
+}
